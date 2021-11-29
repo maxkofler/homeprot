@@ -1,1 +1,4 @@
 build/
+*.user
+*.~lock.*
+*.ods#

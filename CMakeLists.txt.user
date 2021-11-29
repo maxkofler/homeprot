@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE QtCreatorProject>
-<!-- Written by QtCreator 5.0.3, 2021-11-29T12:27:57. -->
+<!-- Written by QtCreator 5.0.3, 2021-11-29T18:10:11. -->
 <qtcreator>
  <data>
   <variable>EnvironmentId</variable>
@@ -72,6 +72,8 @@
     <value type="Qt::CheckState" key="1@/home/max/code/homeprot/tests/src/tests/bus/t_byteReceived.cpp:Bus">Checked</value>
     <value type="Qt::CheckState" key="1@/home/max/code/homeprot/tests/src/tests/bus/t_byteReceived.cpp:byteReceived">Checked</value>
     <value type="Qt::CheckState" key="1@/home/max/code/homeprot/tests/src/tests/bus/t_registerByteReceived.cpp:registerByteReceived">Checked</value>
+    <value type="Qt::CheckState" key="1@/home/max/code/homeprot/tests/src/tests/frame/t_calcCRC.cpp:Frame">Checked</value>
+    <value type="Qt::CheckState" key="1@/home/max/code/homeprot/tests/src/tests/frame/t_calcCRC.cpp:calcCRC">Checked</value>
    </valuemap>
    <value type="int" key="AutoTest.RunAfterBuild">0</value>
    <value type="bool" key="AutoTest.UseGlobal">true</value>

@@ -28,13 +28,17 @@ namespace HomeProt {
 		 * @param	start	Startnumber (0xFFFF in HomeProt)
 		 * @return	Validity
 		 */
-		bool				validateCRC(uint16_t start);
+		bool				validateCRC(uint16_t start){
+			return crc == calcCRC(start);
+		}
 
 		/**
 		 * @brief	Sets the CRC of this frame
 		 * @param	start	Startnumber (0xFFFF in HomeProt)
 		 */
-		void				generateCRC(uint16_t start);
+		void				applyCRC(uint16_t start){
+			crc = calcCRC(start);
+		}
 
 		/**
 		 * @brief	Calculates the CRC checksum of this frame
