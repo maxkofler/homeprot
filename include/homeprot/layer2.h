@@ -15,10 +15,15 @@ namespace HomeProt{
 	#endif
 		/**
 		 * @brief	Gets called by the Bus once a byte has been received
-		 * @param	byte					The byte that has been received
+		 * @param	byte			The byte that has been received
 		 */
-		static void							byteReceived(unsigned char byte);
+		static void					byteReceived(unsigned char byte);
 
+
+		/**
+		 * @brief	Holds how long the current frame is (0 = no frame started)
+		 */
+		unsigned char				_frameLen = -1;
 	};
 
 };
